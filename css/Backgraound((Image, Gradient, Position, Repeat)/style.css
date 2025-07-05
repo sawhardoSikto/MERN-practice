@@ -1,0 +1,11 @@
+body{
+    /* background-image: url(../../asset/image.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+
+
+    /* gradient */
+    /* background: linear-gradient(to right, blue, red); */
+    background: radial-gradient(circle,blue,red)
+}

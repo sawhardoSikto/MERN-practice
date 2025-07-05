@@ -1,4 +1,5 @@
 body{
+    /* image */
     /* background-image: url(../../asset/image.png);
     background-repeat: no-repeat;
     background-size: cover; */
@@ -7,5 +8,12 @@ body{
 
     /* gradient */
     /* background: linear-gradient(to right, blue, red); */
-    background: radial-gradient(circle,blue,red)
+    /* background: radial-gradient(circle,blue,red); */
+
+    /* positon */
+    background-image: url(../../asset/image.png);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center center;
+    height: 100vh;
 }

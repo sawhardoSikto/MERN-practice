@@ -1,0 +1,21 @@
+.box {
+  /* border: 10px solid red;
+    border: 10px dotted red;
+    border: 10px groove red;
+    border: 10px dashed red;
+    border: 10px double red;
+    border: 10px ridge red;
+    border: 10px inset red;
+    border: 10px outset red; */
+}
+.button {
+  border: none;
+}
+.circle{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    border: 10px groove red;
+
+}

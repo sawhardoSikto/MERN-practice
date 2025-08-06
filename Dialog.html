@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialog</title>
+</head>
+<body>
+    <dialog id="loginModal">
+        <form action="">
+            <p><label for="">Email: <input type="email"></label></p>
+            <p><label for="">Password: <input type="password"></label></p>
+            <menu>
+                <button value="cancel">Cancel</button>
+                <button>Login</button>
+            </menu>
+        </form>
+    </dialog>
+    <button onclick="document.getElementById('loginModal').showModal()">Open Login</button>
+</body>
+</html>

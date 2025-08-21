@@ -23,3 +23,14 @@ body{
     border-radius: 50%
     
 }
+ul li{
+    list-style: none;
+}
+
+.list li::before{
+    content: "🔥";
+    
+} 
+.button:hover{
+    background-color: orange;
+}

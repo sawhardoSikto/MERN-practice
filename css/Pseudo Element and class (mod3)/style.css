@@ -45,3 +45,12 @@ input:focus{
     background-color: aqua;
 }
 
+.pdiv{
+    background-color: blue;
+}
+.para{
+    color: white;
+}
+.para::first-letter{
+    font-size: 48px;
+}

@@ -7,28 +7,50 @@
     
     background-color: aqua;
     height: 600px;
+    /* position: relative; */
 }
  .parent>div{
+    
     width: 100px;
     height: 100px;
-    display: inline-block;
+    position: relative;
+    /* display: inline-block; */
  }
  .child1{
     background-color: blue;
+    
  }
  .child2{
     background-color: red;
+    top:-20px;
+    left: 20px;
+    z-index: 1;
  }
  .child3{
     background-color: black;
+    top: -40px;
+    left: 40px;
  }
  .child4{
     background-color: green;
+    top: -60px;
+    left: 60px;
  }
  .child5{
     background-color: orange;
+    top:-80px;
+    left: 80px;
+
  }
 
  /* postion mode experiment */
+/* .child2{
+    position: relative;
+    top:20px
+} */
+/* .child2{
+    position: absolute ;
+    top: 20px;
+    left: 20px;
 
- 
+} */

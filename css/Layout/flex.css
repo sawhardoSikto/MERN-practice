@@ -84,9 +84,9 @@
 .parent{
     display:flex; /*flex call kora holo normally eta main axix e kaj kore ar main axix row hisibe thake by default jokhon amra flex-direction:column korbo tokhon main axix vertically hoye jbe so mainly eta main axix hisbe kaj kore */
    /* flex-wrap:wrap; */
-   justify-content: space-between;
+   /* justify-content: space-between;
    flex-direction: row;
-   align-items: center;
+   align-items: center; */
    /* align-content: space-evenly; */
 }
 /*egulo children er upor kaj kore*/
@@ -98,4 +98,13 @@
 }
 .child4{
     flex-grow: 1;
+}
+.child2{
+    width: 1000px !important;
+}
+.child3{
+    flex-shrink: 0; /*child 3 ke bollam tumi tmr height widht thik rakho onnora shrink korle koruk tumi korbana*/
+}
+.child4{
+    align-self: flex-end; /*child 4 ke niche namaye anlam*/
 }

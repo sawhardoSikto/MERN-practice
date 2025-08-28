@@ -1,0 +1,101 @@
+.grand-parent{
+    height: 800px;
+    padding: 16px;
+    background-color: #252525;
+
+
+}
+.parent{
+    height: 600px;
+
+    background-color:sandybrown;
+
+}
+.parent>div{
+    height: 100px;
+    width: 100px;
+    color: rgba(235, 9, 216, 0.781);
+    text-align: center;
+    
+    
+}
+.child1{
+    background-color: #fff;
+}
+.child2{
+    background-color: rgba(0, 0, 255, 0.637);
+}
+.child3{
+    background-color: darkgray;
+}
+.child4{
+    background-color: green;
+}
+.child5{
+    
+    background-color: rgb(8, 120, 224);
+}
+.child6{
+    
+    background-color: rgba(233, 168, 168, 0.199);
+}
+.child6{
+    
+    background-color: rgb(21, 27, 105);
+}
+.child7{
+    
+    background-color: rgb(250, 211, 161);
+}
+.child8{
+    
+    background-color: rgb(87, 114, 24);
+}
+.child9{
+    
+    background-color: rgb(107, 16, 182);
+}
+.child10{
+    
+    background-color: rgb(14, 163, 223);
+}
+.child11{
+    
+    background-color: rgb(223, 58, 149);
+}
+.child12{
+    
+    background-color: rgb(75, 16, 212);
+}
+.child13{
+    
+    background-color: rgb(87, 114, 24);
+}
+.child14{
+    
+    background-color: rgb(127, 129, 121);
+}
+.child15{
+    
+    background-color: rgba(141, 17, 34, 0.452);
+}
+
+/*egulo shudhu parent er upor i aplly hobe */
+.parent{
+    display:flex; /*flex call kora holo normally eta main axix e kaj kore ar main axix row hisibe thake by default jokhon amra flex-direction:column korbo tokhon main axix vertically hoye jbe so mainly eta main axix hisbe kaj kore */
+   /* flex-wrap:wrap; */
+   justify-content: space-between;
+   flex-direction: row;
+   align-items: center;
+   /* align-content: space-evenly; */
+}
+/*egulo children er upor kaj kore*/
+.child1{
+    order: 1; /*jar order joto beshi tar priority toto kom*/
+}
+.child3{
+    flex-grow: 1;
+}
+.child4{
+    flex-grow: 1;
+}

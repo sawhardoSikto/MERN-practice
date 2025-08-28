@@ -1,19 +1,22 @@
 .grand-parent{
     background-color: gray;
-    height: 800px;
+    height: 1900px;
     padding: 40px;
+
 }
 .parent {
     
     background-color: aqua;
     height: 600px;
     /* position: relative; */
+    /* position: fixed;  scrorable hoy na fixed deyar karone */
+    width: 100%;
 }
  .parent>div{
     
     width: 100px;
     height: 100px;
-    position: relative;
+    /* position: relative; */
     /* display: inline-block; */
  }
  .child1{
@@ -24,7 +27,7 @@
     background-color: red;
     top:-20px;
     left: 20px;
-    z-index: 1;
+    /* z-index: 1; */
  }
  .child3{
     background-color: black;
@@ -54,3 +57,8 @@
     left: 20px;
 
 } */
+
+.child2{
+   position:sticky;
+   top:0px;
+}

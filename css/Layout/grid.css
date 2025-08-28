@@ -1,0 +1,17 @@
+body{
+    background-color: #252525;
+}
+.parent
+{
+    border: 1px solid #e5e5e5;
+    padding:8px
+}
+.child{
+    border-radius: 4px;
+    border: 1px solid #e5e5e5;
+    background-color: rgba(0, 255, 0, .1);
+    color: white;
+    display: flex;
+    
+    height: 100px;
+}

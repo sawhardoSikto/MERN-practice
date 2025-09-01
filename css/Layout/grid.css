@@ -20,30 +20,33 @@ body{
 
 .parent{
     display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr;   ekhane amra bolte partam na ke kothay thakbe ar ekhon tamplate area use kore bolte pari ke kotha thakbe*/ 
-    grid-template-rows: 1fr 6fr 1fr; 
-    grid-template-areas: /*ekhane ami tamplate bole dichi ke kothay thakbe */
+    grid-template-columns: 1fr 1fr 1fr;   /*ekhane amra bolte partam na ke kothay thakbe ar ekhon tamplate area use kore bolte pari ke kotha thakbe*/ 
+    /* grid-template-rows: 1fr 1fr 1fr;  */
+   /* grid-template-areas: ekhane ami tamplate bole dichi ke kothay thakbe 
     "child1 child2 child2"
     "child3 child4 child5"
-    "child6 child6 child6";
+    "child6 child6 child6";*/
     height: 600px;
 }
 
 .child1{
-    grid-area: child1;
+    /* grid-area: child1; */
 }
 .child2{
-    grid-area: child2;
+    /* grid-area: child2; */
 }
 .child3{
-    grid-area: child3;
+    /* grid-area: child3; */
+    grid-column-start: 1; /* evabeo amra ordering korte pari */
+    
+    grid-row-start: 1;
 }
 .child4{
-    grid-area: child4;
+    /* grid-area: child4; */
 }
 .child5{
-    grid-area: child5;
+    /* grid-area: child5; */
 }
 .child6{
-    grid-area: child6;
+    /* grid-area: child6; */
 }

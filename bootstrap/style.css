@@ -11,3 +11,8 @@ html,body{
     background-color: rgb(170, 197, 142);
     border: 1px solid white;
 }
+.box-2{
+    height: 100px;
+    background-color: rgb(36, 150, 216);
+    border: 1px solid white;
+}

@@ -7,7 +7,7 @@ html,body{
     background-color: green;
 }
 .box{
-    height: 300px;
+    height: 100px;
     background-color: rgb(170, 197, 142);
     border: 1px solid white;
 }

@@ -32,3 +32,40 @@ const s= (a,b)=>{
     return a+b;
 }
 console.log(s(1,2));
+
+
+// immediately invoked functin expressions (IIFE)
+
+(function ()
+{
+    console.log("this is runs immediately");
+})();
+
+
+// generator function
+
+function* generatorNumber ()
+{
+    yield 1;
+    yield 2;
+    yield 3;
+    yield 4;
+
+}
+const gen= generatorNumber();
+console.log(gen.next());
+console.log(gen.next());
+console.log(gen.next());
+console.log(gen.next());
+console.log(gen.next());
+
+
+// recursive function 
+
+function countDown (n)
+{
+    if (n<=0) return;
+    console.log(n);
+    countDown(n-1);
+}
+countDown(10);

@@ -69,3 +69,26 @@ function countDown (n)
     countDown(n-1);
 }
 countDown(10);
+
+function factorial (n)
+{
+    if (n===0) return 1;
+    return n* factorial(n-1)
+}
+console.log(factorial(5))
+
+function fibonacci (n)
+{
+    if (n <= 1) {
+        return n;
+    }
+    // Recursive step: sum of the two preceding numbers
+    else {
+        return fibonacci(n - 1) + fibonacci(n - 2);
+    }
+}
+
+for (let i=0 ; i<10;i++)
+{
+    console.log(fibonacci(i))
+}

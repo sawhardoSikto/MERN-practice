@@ -11,4 +11,4 @@ function factorial(n)
     }
     return facto;
 }
-console.log(factorial(5));
+console.log(factorial(4));
